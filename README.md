@@ -26,7 +26,7 @@ This web application allows Claire, owner of Eau Claire's Salon, to track her st
 
 * Clone this repository to your desktop
 * Open in text editor
-* Create appsettings.json in root directory (HairSalon.Solution)
+* Create appsettings.json in main project directory /HairSalon/HairSalon/
 * Copy this code into appsettings.json, replacing YOUR_PASSWORD with your MySQL password:
 ```
 {
