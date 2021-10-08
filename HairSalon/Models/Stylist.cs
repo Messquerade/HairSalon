@@ -1,7 +1,16 @@
 namespace HairSalon.Models
 {
-  public class ParentClass
+  public class Stylist
   {
-    
+    public Stylist()
+    {
+      this.Clients = new HashSet<Client>();
+    }
+
+    public int StylistId { get; set; }
+    public string Name { get; set; }
+    public string Specialty { get; set; }
+    public string Availability { get; set; }
+    public virtual ICollection<Client> Clients { get; set; }
   }
 }
