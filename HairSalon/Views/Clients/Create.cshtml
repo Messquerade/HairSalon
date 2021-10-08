@@ -1,0 +1,27 @@
+@{
+  Layout = "_Layout";
+}
+
+@model HairSalon.Models.Client
+
+<h2>Add a Client</h2>
+
+@if (ViewBag.StylistsList.Count != 0)
+{
+  @using (Html.BeginForm())
+  {
+    @Html.LabelFor(model => model.Name)
+    @Html.TextBoxFor(model => model.Name)
+    @Html.DropDownList("StylistId")
+    <input type="submit" value="Add a Client" />
+  }
+}
+else
+{
+  <h3>You have no current stylists. Add a stylist before adding any clients</h3>
+}
+
+<p>@Html.ActionLink("See all Clients", "Index", "Clients")</p>
+<p>@Html.ActionLink("Add a Stylist", "Create", "Stylists")</p>
+<p>@Html.ActionLink("See all Stylists", "Index", "Stylists")</p>
+<p>@Html.ActionLink("Back to Home", "Index", "Home")</p>
