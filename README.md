@@ -6,7 +6,7 @@
 
 
 ## Salon Database
-<img src="HairSalon/wwwroot/img/database.png" height="150px">
+<img src="HairSalon/wwwroot/img/database.png" height="300px">
 
 ## Technologies Used
 
