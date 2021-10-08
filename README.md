@@ -4,7 +4,9 @@
 
 #### By Anna Clarke
 
-<img src="HairSalon/wwwroot/img/database.png">
+
+## Salon Database
+<img src="HairSalon/wwwroot/img/database.png" height="150px">
 
 ## Technologies Used
 
@@ -12,6 +14,7 @@
 * _ASP.NET Core MVC_
 * _.NET 5_
 * _NuGet_
+* _Entity FrameWork Core_
 
 ## Description
 
@@ -35,7 +38,7 @@ This web application allows Claire, owner of Eau Claire's Salon, to track her st
   }
 }
 ```
-* open new terminal and run SQL ($ mysql -uroot -p{your_password})
+* open new terminal and run SQL `$ mysql -uroot -p{your_password}`
 * open MySQL Workbench
 * In the Navigator > Administration window, select Data Import/Restore.
 * In Import Options select Import from Self-Contained File
@@ -44,18 +47,19 @@ This web application allows Claire, owner of Eau Claire's Salon, to track her st
 * Click Ok
 * Navigate to the tab called Import Progress and click Start Import at the bottom right corner of the window
 * After you are finished with the above steps, reopen the Navigator > Schemas tab. Right click and select Refresh All. The anna_clarke database should appear.
-* In terminal, navigate into HairSalon.Solution/HairSalon/ and enter the command $ dotnet restore, to install necessary packages
-* enter command $ dotnet build, to build program
-* enter command $ dotnet run, to view program in your browser
+* In terminal, navigate into HairSalon/HairSalon/ and enter the command `$ dotnet restore`, to install necessary packages
+* enter command `$ dotnet build`, to build program
+* enter command `$ dotnet run`, to view application in your browser
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _NA_
 
 ## License
 
-_[GPL](https://opensource.org/licenses/gpl-license)_
+_[MIT](https://opensource.org/licenses/MIT)_  
+
+Copyright (c) 2021 Anna Clarke
 
 ## Contact Information
 
